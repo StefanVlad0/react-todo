@@ -1,13 +1,10 @@
 import './App.css';
-import TodoList from './components/TodoList'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import { TodoWrapper } from './components/TodoWrapper';
 
-function App()
-{
-  return(
+function App() {
+  return (
     <div className="App">
-      <h2>Hello!</h2>
-      <TodoList/>
+      <TodoWrapper  />
     </div>
   );
 }
